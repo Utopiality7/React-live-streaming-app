@@ -10,26 +10,31 @@ const routesList = [
     id: uuidv4(),
     path: "/",
     element: <StreamList />,
+    extraProps: {},
   },
   {
     id: uuidv4(),
     path: "/streams/new",
     element: <StreamCreate />,
+    extraProps: {},
   },
   {
     id: uuidv4(),
     path: "/streams/edit",
     element: <StreamEdit />,
+    extraProps: {},
   },
   {
     id: uuidv4(),
     path: "/streams/delete",
     element: <StreamDelete />,
+    extraProps: {},
   },
   {
     id: uuidv4(),
     path: "/streams/show",
     element: <StreamShow />,
+    extraProps: {},
   },
 ];
 
