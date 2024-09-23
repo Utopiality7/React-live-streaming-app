@@ -1,15 +1,13 @@
 import React, { Fragment } from "react";
-import { useRoutes } from "react-router-dom";
-import routesList from "./routes";
+import NavigationHeader from "./views/navigations/header";
+import Routes from "./views/routes";
 import "./App.css";
 
 const App = () => {
-  const routes = useRoutes(routesList);
-
   return (
     <Fragment>
-      <h1>Header</h1>
-      { routes }
+      <NavigationHeader />
+      <Routes />
     </Fragment>
   );
 };

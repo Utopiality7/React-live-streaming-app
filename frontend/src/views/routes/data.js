@@ -1,8 +1,8 @@
-import StreamList from "./views/pages/streams/list";
-import StreamCreate from "./views/pages/streams/create";
-import StreamEdit from "./views/pages/streams/edit";
-import StreamDelete from "./views/pages/streams/delete";
-import StreamShow from "./views/pages/streams/show";
+import StreamList from "../pages/streams/list";
+import StreamCreate from "../pages/streams/create";
+import StreamEdit from "../pages/streams/edit";
+import StreamDelete from "../pages/streams/delete";
+import StreamShow from "../pages/streams/show";
 const routesList = [
   {
     path: "/",
