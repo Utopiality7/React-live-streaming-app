@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 const StreamDelete = () => {
-  return <Fragment>StreamDelete</Fragment>;
+  return <Fragment>Stream Delete</Fragment>;
 };
 
 export default StreamDelete;

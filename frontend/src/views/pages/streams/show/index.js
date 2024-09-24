@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 const StreamShow = () => {
-  return <Fragment>StreamShow</Fragment>;
+  return <Fragment>Stream Show</Fragment>;
 };
 
 export default StreamShow;

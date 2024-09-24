@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 const StreamEdit = () => {
-  return <Fragment>StreamEdit</Fragment>;
+  return <Fragment>Stream Edit</Fragment>;
 };
 
 export default StreamEdit;
