@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import GoogleAuth from "../../components/google-auth";
+
 const NavigationHeader = () => {
   return (
     <div className="top-bar shadow">
@@ -12,11 +14,7 @@ const NavigationHeader = () => {
       </div>
       <div className="top-bar-right">
         <ul className="menu">
-          <li>
-            <button type="button" className="button radius bordered shadow social google">
-              Login with Google
-            </button>
-          </li>
+          <li><GoogleAuth /></li>
         </ul>
       </div>
     </div>
