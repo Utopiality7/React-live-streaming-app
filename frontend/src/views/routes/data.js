@@ -7,36 +7,33 @@ import StreamDelete from "../pages/streams/delete";
 import StreamShow from "../pages/streams/show";
 const routesList = [
   {
-    id: uuidv4(),
     path: "/",
     element: <StreamList />,
     extraProps: {},
   },
   {
-    id: uuidv4(),
     path: "/streams/new",
     element: <StreamCreate />,
     extraProps: {},
   },
   {
-    id: uuidv4(),
     path: "/streams/edit",
     element: <StreamEdit />,
     extraProps: {},
   },
   {
-    id: uuidv4(),
     path: "/streams/delete",
     element: <StreamDelete />,
     extraProps: {},
   },
   {
-    id: uuidv4(),
     path: "/streams/show",
     element: <StreamShow />,
     extraProps: {},
   },
 ];
+
+routesList.forEach(item => item.id = uuidv4());
 
 // Export the routes for use in our main app
 export default routesList;
