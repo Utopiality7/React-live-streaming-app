@@ -1,5 +1,7 @@
 # Streaming service React client
 
+This is the React Client for the live video streaming service
+
 ## Tools Used
 
 - react-js [[Ref]](https://reactjs.org/docs/getting-started.html)
@@ -54,8 +56,6 @@ You will also see any lint errors in the console.
 ### Delete Stream (StreamDelete Component)
 
 ![delete-stream](images/6-delete-stream.jpg 'Delete stream')
-
-# TODO: Update below
 
 ## React Components
 
