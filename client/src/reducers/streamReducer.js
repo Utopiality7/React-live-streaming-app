@@ -11,7 +11,7 @@ import {
 export default (state = {}, action) => {
   switch (action.type) {
     case FETCH_STREAM || CREATE_STREAM || EDIT_STREAM:
-      return { ...state, [action.payload.id]: actions.payload };
+      return { ...state, [action.payload.id]: action.payload };
 
     // case CREATE_STREAM:
     //   return { ...state, [action.payload.id]: action.payload };
